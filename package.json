@@ -30,9 +30,9 @@
     "eslint-plugin-prettier": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.15",
-    "pm2": "^5.1.2",
     "prettier": "2.5.1",
-    "prisma": "^3.7.0"
+    "prisma": "^3.7.0",
+    "pm2": "^5.1.2"
   },
   "keywords": []
 }

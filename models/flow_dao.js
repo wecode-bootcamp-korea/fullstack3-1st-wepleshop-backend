@@ -1,8 +1,6 @@
 const prisma = require('./index');
-const PrismaClient = require('@prisma/client');
-const { raw } = PrismaClient.Prisma;
 
-const flow = async (productId) => {
+const flow = async () => {
   const flowlist = await prisma.$queryRaw`
     SELECT
       products.id as productId,
